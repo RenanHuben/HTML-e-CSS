@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo Videos Localmente
+    </h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+<video src="videos/video-mp4.mp4" width="560" controls></video>
+
+<h2>Melhor forma para colocar diferentes formatos de vídeos no site</h2>
+<video width="500" poster="Imagem teste.png" controls autoplay loop>
+    <source src="videos/video-mp4.mp4" type="video/mp4">
+    <source src="videos/video-mkv.mkv" type="video/mkv">
+    <source src="videos/video-webn.webm" type="video/webn">
+<p>Seu navegador não tem comppatibilidade com reprodução de videos</p>
+</video>
+
+<p>Esta tag video tem custos de hospedagem de video que podem sair caro. Pode não ser a melhor opção</p>
+<p>Lembrando que o navegador tenta carregar o primeiro video da lista, ENTÃO A ORDEM IMPORTA. Comece pelo video menos pesado para não ser muito caro a hospedagem para o cliente.
+<p>Ele carrega o que der certo. Se nenhum der certo, aparece a mensagem que o navegador não tem compatibilidade com o video. Por isso essa frase está no meio do code do vídeo </p>
+
+<h1>Inserindo Videos do Youtube</h1>
+<p>Desta vez, sem custos adicionais de hospedagem</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a6i7nOgphzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+</body>
+</html>
