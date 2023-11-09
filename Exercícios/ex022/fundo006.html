@@ -9,13 +9,20 @@
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
         }
+        /*Shothand - background
+         color > image > position > repeat > [size] > attachment
+
+         Apesar de estar na documentação, nem sempre o size funciona com shothand
+        */
+
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
